@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* START OF NAVBAR */
+#lychee-logo {
+    width: 60px;
+}
+.navbar {
+    background-color: rgb(229, 136, 123);
+    color: black;
+}
+/* END OF NAVBAR */
