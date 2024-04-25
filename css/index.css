@@ -1,0 +1,22 @@
+/* START OF HERO-SECTION */
+
+#gatherer {
+    border-bottom: 5px solid  rgb(229, 136, 123);
+}
+
+.section1-index {
+    padding-top: 33px;
+    text-align: center;
+}
+
+.welcome {
+    padding-bottom: 15px;
+}
+
+@media (min-width:414px) {
+    #gatherer {
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+/* END OF HERO-SECTION */
