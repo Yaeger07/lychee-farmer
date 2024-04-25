@@ -1,22 +1,38 @@
 /* START OF HERO-SECTION */
 
 #gatherer {
-    border-bottom: 5px solid  rgb(229, 136, 123);
+  border-bottom: 5px solid rgb(229, 136, 123);
 }
 
+@media (min-width: 414px) {
+  #gatherer {
+    width: 100%;
+  }
+}
+/* END OF HERO-SECTION */
+/* SECTION 1 START */
 .section1-index {
-    padding-top: 33px;
-    text-align: center;
+  text-align: center;
+  padding: 55px 0;
 }
 
 .welcome {
-    padding-bottom: 15px;
+  padding-bottom: 25px;
 }
-
-@media (min-width:414px) {
-    #gatherer {
-        margin-top: 50px;
-        width: 100%;
-    }
+/* SECTION 1 END */
+/* SECTION 2 START */
+.section2-index {
+    background-color: rgb(246, 245, 239);
 }
-/* END OF HERO-SECTION */
+.what, .use {
+    padding-top: 33px;
+}
+/* SECTION 2 END */
+/* SECTION 3 START */
+.home-of-lychee {
+    width: 100%;
+    margin-top: 55px;
+    border-top:  5px solid rgb(229, 136, 123);
+    border-bottom:  5px solid rgb(229, 136, 123);;
+}
+/* SECTION 3 END */
