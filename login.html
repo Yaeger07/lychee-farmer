@@ -20,7 +20,42 @@
   </head>
   <body>
     <!-- START OF FORM -->
-
+    <div class="form d-flex justify-content-center align-items-center">
+      <form action="/action_page.php">
+        <div class="mb-3 mt-3 signin">
+          <label for="email" class="form-label">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter email"
+            name="email"
+          />
+        </div>
+        <div class="mb-3 signin">
+          <label for="pwd" class="form-label">Password:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Enter password"
+            name="pswd"
+          />
+        </div>
+        <div class="form-check mb-3 signin">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember" />
+            Remember me
+          </label>
+        </div>
+        <div class="sub-button">
+          <button type="submit" class="btn btn-secondary submit-button">
+            <b>Submit</b>
+          </button>
+        </div>
+      </form>
+    </div>
+    
     <!-- END OF FORM -->
     <!-- START OF FOOTER SECTION -->
     <footer>

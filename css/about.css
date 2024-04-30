@@ -1,0 +1,37 @@
+/* START OF HERO-SECTION */
+#about-lychee {
+    width: 100%;
+    border-bottom: 5px solid rgb(229, 136, 123);
+    margin-top: 0px;
+}
+@media (min-width: 414px) {
+    #about-lychee {
+      height: 300px;
+      margin-top: 75px;
+    }
+  }
+  @media (min-width: 769) {
+    #about-lychee {
+      margin-top: 0px;
+    }
+  }
+/* END OF HERO-SECTION */
+/* START OF FIRST SECTION */
+.section1-about {
+    margin-top: 55px;
+}
+.bigfarm {
+    margin-top: 20px;
+}
+/* END OF FIRST SECTION */
+/* START OF SECOND SECTION */
+
+/* END OF SECOND SECTION */
+/* START OF THIRD SECTION */
+.farmer {
+    width: 100%;
+    margin-top: 55px;
+    border-top:  5px solid rgb(229, 136, 123);
+    border-bottom:  5px solid rgb(229, 136, 123);;
+}
+/* END OF THIRD SECTION */
