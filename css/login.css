@@ -1,7 +1,7 @@
 /* START OF LOGIN */
 .logg {
     background-color: rgb(122, 19, 27);
-    padding: 100px;
+    padding: 75px;
     margin: 170px 0;
     color:  rgb(246, 245, 239);
     border-radius: 15px;
@@ -10,12 +10,49 @@
 
 .login {
     text-align: center;
+    font-size: 45px;
+    padding-bottom: 15px;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.member {
+    color: rgb(144, 132, 71);
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.not {
+    text-align: center;
+    padding-top: 50px;
+}
 /* END OF LOGIN */
 /* START OF SIGNUP */
-
+.home-page {
+    text-align: center;
+    padding-top: 50px;
+}
+.home {
+    text-align: center;
+    color: rgb(144, 132, 71);
+    font-weight: 500;
+    padding-top: 20px;
+}
+.sin {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.up {
+    border: 7px solid  rgb(122, 19, 27);
+    padding: 75px;
+    margin: 170px 0;
+    color: rgb(122, 19, 27);
+    border-radius: 15px;
+    background-color: rgb(246, 245, 239);
+}
 /* END OF SIGNUP */
 /* START OF MEDIA QUARY */
 @media (min-width: 414px) {
