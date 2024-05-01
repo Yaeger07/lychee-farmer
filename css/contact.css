@@ -1,0 +1,26 @@
+.how {
+
+}
+
+.section1-contact {
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.sub-button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form {
+    background-color: rgb(246, 245, 239);
+    margin: 0 150px;
+    padding: 50px 0;
+    border: 5px double rgb(144, 132, 71);
+    border-radius: 10px;
+}

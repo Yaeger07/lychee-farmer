@@ -61,57 +61,71 @@
     <!-- END OF NAVBAR -->
     <!-- START OF HER0-SECTION -->
     <div class="hero-contact">
-      <img id="gatherer" src="" alt="" />
+      <img id="" src="images/" alt="" />
     </div>
     <!-- END OF HERO-SECTION -->
     <!-- START OF FIRST SECTION -->
-    <div class="container section1-contact">
-      <div class="row">
-        <div class="col-sm-6 col-md-2">
-          <img class="img-fluid" src="" alt="" />
-        </div>
-        <div class="col-sm-6 col-md-8">
-          <h1 class=""><b>Luxury Lychee Farms</b></h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi
-            vitae tenetur culpa debitis porro ducimus, beatae molestiae
-            perferendis iusto quas sit similique dignissimos non illo odit
-            corrupti explicabo consectetur.
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-2">
-          <img class="img-fluid" src="" alt="" />
-        </div>
-      </div>
+    <div class="section1-contact">
+      <h1 class="how">Questions or Requests?</h1>
     </div>
+    
     <!-- END OF FIRST SECTION -->
-    <!-- START OF SECOND SECTION -->
-    <div class="container section2-contact">
-      <div class="row">
-        <div class="col-sm-6 col-md-3">
-          <h4><i>Lychee?</i></h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente,
-            sed, voluptatem recusandae sit rerum quasi totam a ea quibusdam fuga
-            architecto nostrum cum harum. Ipsam itaque molestiae perferendis
-            praesentium odio!
-          </p>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <img class="img-fluid" src="" alt="" />
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <h4><i>Lychee</i></h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            hic voluptas eos incidunt, nostrum doloremque sint enim voluptate
-            quis qui aspernatur, deleniti, facilis earum similique illo. Nobis
-            sed commodi consequuntur!
-          </p>
-        </div>
+    <!-- START OF FORM -->
+    <section>
+      <div class="form d-flex justify-content-center align-items-center">
+        <form action="/action_page.php">
+          <h4 class="sign-up">Contact Us</h4>
+          <div class="mb-3 mt-3 signin">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+            />
+          </div>
+          <div class="mb-3 signin">
+            <label for="pwd" class="form-label">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Enter password"
+              name="pswd"
+            />
+          </div>
+          <div class="mb-3 signin">
+            <label for="pwd" class="form-label">Reason:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Reason"
+              name="pswd"
+            />
+          </div>
+          
+
+          <div class="comments">
+            <label for="comment">Comments:</label><br />
+            <textarea
+              class="form-control"
+              rows="5"
+              id="comment"
+              name="text"
+            ></textarea>
+          </div>
+          <div class="sub-button">
+            <button type="submit" class="btn btn-success submit-button">
+              <b>Submit</b>
+            </button>
+          </div>
+        </form>
       </div>
-    </div>
-    <!-- END OF SECOND SECTION -->
+    </section>
+    <!-- END OF FORM -->
+
     <!-- START OF THIRD SECTION -->
     <div>
       <img class="img-fluid" src="" alt="" />
@@ -145,6 +159,7 @@
         </div>
       </div>
     </footer>
+
     <!-- END OF FOOTER SECTION -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

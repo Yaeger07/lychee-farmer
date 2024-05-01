@@ -1,0 +1,33 @@
+/* START OF HERO-SECTION */
+.hero-gallery {
+    border-bottom: 2px solid  rgb(229, 136, 123);
+}
+.gallery {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 75px;
+    text-shadow: 2px 2px 2px rgb(229, 136, 123);
+    text-decoration: underline;
+    color: rgb(82, 135, 40);
+}
+/* END OF HERO-SECTION */
+/* START OF SECTION-1 */
+.section1-gallery {
+   padding: 30px 0;
+}
+.sorting {
+    width: 600px;
+}
+/* END OF SECTION-1 */
+/* START OF SECTION-2 */
+.section2-gallery {
+    padding: 30px 0;
+}
+/* END OF SECTION-2 */
+/* START OF SECTION-3 */
+.section3-gallery {
+    padding-bottom: 30px;
+}
+/* END OF SECTION-3 */
