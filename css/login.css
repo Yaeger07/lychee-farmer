@@ -5,7 +5,7 @@
     margin: 170px 0;
     color:  rgb(246, 245, 239);
     border-radius: 15px;
-    border: 7px solid rgb(246, 245, 239);
+    border: 7px double rgb(246, 245, 239);
 }
 
 .login {
@@ -46,7 +46,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 .up {
-    border: 7px solid  rgb(122, 19, 27);
+    border: 7px double  rgb(122, 19, 27);
     padding: 75px;
     margin: 170px 0;
     color: rgb(122, 19, 27);
