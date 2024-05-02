@@ -1,12 +1,21 @@
+.background-body {
+  background-image: url("../images/contact.jpg");
+
+}
 /* START OF HERO-SECTION */
 .section1-contact {
-  margin-top: 100px;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+.address {
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
 }
 .baby {
-    text-align: center;
-    padding-bottom: 75px;
+  text-align: center;
+  padding-bottom: 75px;
 }
 
 #photo-bb {
@@ -15,15 +24,13 @@
 }
 
 .how {
-  color: rgb(83, 135, 40);
+  color: rgb(246, 245, 239);
   font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-shadow: 2px 2px 2px rgb(229, 136, 123);
 }
 
-.address {
-    padding-top: 100px;
-}
+
 /* END OF HERO-SECTION */
 /* START OF CONTACT FORM */
 .cont {
@@ -55,7 +62,11 @@
 /* END OF CONTACT FORM */
 /* START OF SECOND SECTION */
 .second-contact {
-  padding-top: 75px;
   text-align: center;
+  padding-top: 50px;
 }
+.bear {
+ 
+}
+
 /* END OF SECOND SECTION */
