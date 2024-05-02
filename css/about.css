@@ -4,6 +4,9 @@
     border-bottom: 5px solid rgb(229, 136, 123);
     margin-top: 0px;
 }
+.farms {
+  text-align: center;
+}
 @media (min-width: 414px) {
     #about-lychee {
       height: 300px;

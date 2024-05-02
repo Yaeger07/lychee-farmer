@@ -2,7 +2,7 @@
 .logg {
     background-color: rgb(122, 19, 27);
     padding: 75px;
-    margin: 170px 0;
+    margin: 120px 0;
     color:  rgb(246, 245, 239);
     border-radius: 15px;
     border: 7px double rgb(246, 245, 239);
@@ -57,7 +57,7 @@
 /* START OF MEDIA QUARY */
 @media (min-width: 414px) {
     .form {
-        background-image: url("../images/about-lychee2.jpg");
+        background-image: url("../images/signup.jpg");
         background-position: center;
         background-repeat: no-repeat;
     }
