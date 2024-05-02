@@ -1,6 +1,7 @@
 /* START OF HERO-SECTION */
 .hero-gallery {
     border-bottom: 2px solid  rgb(229, 136, 123);
+    background-color: rgb(246, 245, 239);
 }
 .gallery {
     padding-top: 100px;
@@ -17,6 +18,12 @@
 .section1-gallery {
    padding: 30px 0;
 }
+.hat {
+    border-radius: 25px;
+}
+.bowl {
+    border-radius: 65px;
+}
 .sorting {
     width: 600px;
 }
@@ -29,5 +36,8 @@
 /* START OF SECTION-3 */
 .section3-gallery {
     padding-bottom: 30px;
+}
+.drink {
+    border-radius: 50%;
 }
 /* END OF SECTION-3 */
