@@ -12,6 +12,9 @@
     background-color: rgb(229, 136, 123);
     color: black;
 }
+.nav-link:hover {
+    color: white !important;
+}
 
 /* END OF NAVBAR */
 /* START OF FOOTER */
